@@ -12,7 +12,7 @@ import (
 	"github.com/chandimal91/bookings-app/pkg/render"
 )
 
-const portNumber = ":8080"
+const portNumber = ":6060"
 
 var app config.AppConfig
 var session *scs.SessionManager
