@@ -18,6 +18,7 @@ var app config.AppConfig
 var session *scs.SessionManager
 
 // main is the main function
+// rasika
 func main() {
 	// change this to true when in production
 	app.InProduction = false
