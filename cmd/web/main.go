@@ -18,7 +18,6 @@ var app config.AppConfig
 var session *scs.SessionManager
 
 // main is the main function
-// rasika
 func main() {
 	// change this to true when in production
 	app.InProduction = false
@@ -45,7 +44,7 @@ func main() {
 
 	render.NewTemplates(&app)
 
-	fmt.Println(fmt.Sprintf("Staring application on port %s", portNumber))
+	fmt.Printf("Staring application on port %s", portNumber)
 
 	srv := &http.Server{
 		Addr:    portNumber,
